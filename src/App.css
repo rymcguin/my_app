@@ -1,38 +1,280 @@
-.App {
-  text-align: center;
+.mdl-layout__content{
+  background: #aa4b6b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ E*/
+}
+.header-color{
+  background: #aa4b6b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size:25px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Home page */
+.home-grid{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.home-bio{
+  text-align: center;
+}
+/* .home-img{
+  height:200px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding-top:100px;
+  padding-bottom: 1em;
+} */
+.home-img{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-img img {
+  margin-top:-15px;
+  width: 100%;
+  height: auto;
+}
+.home-text p{
+  color:white;
+  font-size: 25px;
+  background: rgba(0,0,0,.5);
+  width: 65%;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom:40px;
+  padding:30px;
+  border-radius: 10px;
+  line-height: 30px;
+}
+.home-name {
+  font-size: 50px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.home-grid hr {
+  font: 5px solid white;
+  width:85%;
+  margin:auto;
+}
+.home-bio p{
+  font-size:30px;
+  padding: 20px;
+  margin:0px;
+}
+
+/* Resume Page */
+.resume-body {
+  background: #aa4b6b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+.resume-body h1{
+  text-align: center;
+  margin: 0px;
+}
+.resume-body hr{
+  border-top: 3px solid white;
+  width: 90%;
+  margin: auto;
+}
+.resume-edu{
+  background-color: rgba(0,0,0,.5);
+  width: 85%;
+  padding:5px;
+  margin:auto;
+  margin-top: 15px;
+  margin-bottom:15px;
+  border-radius: 10px;
+}
+.resume-edu h2{
+  font-size:40px;
+  margin-left:25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+.resume-edu hr{
+  margin-left: 20px;
+  width: 95%;
+  border-top: 3px dotted white
+}
+.resume-edu ul{
+  font-size: 25px;
+  list-style: none;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.resume-edu p{
+  margin-bottom: 0px;
+}
+.edu-att li{
+  list-style: square;
+  margin-top:3px;
+  font-size: 18px;
+  margin-bottom:3px;
+  
+}
+.highschool li{
+  font-size: 18px;
+  margin-top: 3px;
+  list-style: square; 
+}
+.resume-work{
+  background-color: rgba(0,0,0,.5);
+  width:85%;
+  margin:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding:5px;
+  border-radius: 10px;
+}
+.resume-work h2{
+  font-size:40px;
+  margin-left:25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+.resume-work hr{
+  margin-left: 20px;
+  width: 95%;
+  border-top: 3px dotted white;
+}
+.resume-work ul{
+  font-size: 25px;
+  list-style: none;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.resume-work p{
+  margin-bottom: 5px;
+}
+.work-att li{
+  list-style: square;
+  margin-top:3px;
+  font-size: 20px;
+  margin-bottom:3px;
+  padding-right: 40px;
+}
+.work-fire li{
+  list-style: square;
+  margin-top:3px;
+  font-size: 20px;
+  margin-bottom:3px;
+  padding-right: 40px;
+}
+.resume-extra{
+  background-color: rgba(0,0,0,.5);
+  width:85%;
+  margin:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.resume-extra h2{
+  font-size:40px;
+  margin-left:25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+.resume-extra hr{
+  margin-left: 20px;
+  width: 95%;
+  border-top: 3px dotted white;
+}
+.resume-extra ul{
+  font-size: 25px;
+  list-style: none;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.resume-extra p{
+  margin-bottom: 5px;
+}
+.resume-lcc li{
+  list-style: square;
+  margin-top:3px;
+  font-size: 20px;
+  margin-bottom:3px;
+  padding-right: 40px;
+}
+.resume-phil li{
+  list-style: square;
+  margin-top:3px;
+  font-size: 20px;
+  margin-bottom:3px;
+  padding-right: 40px;
+}
+
+/* Contact page */
+
+.contact-main {
+  color:white;
+  margin: 40px;
+}
+.contact-main h1{
+  margin:0px;
+  
+}
+.contact-main hr{
+  margin:0px;
+  border-top:3px solid white;
+}
+.contact-main ul{
+  font-size:25px;
+  list-style-type: none;
+  color:white;
+  margin-top:10px;
+  margin-bottom:10px;
+  
+}
+.contact-phone{
+  margin:5px;
+}
+.contact-email{
+  margin:5px;
+}
+.contact-email2{
+  margin-top: 5px;
+}
+.contact-list{
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  padding-top:20px;
+  padding-bottom:20px;
+  width: 80%;
+  margin:auto;
+  margin-top: 50px;
+}
+.email1{
+  color:white;
+}
+.email2{
+  color:white;
+}
+.contact-list li{
+  margin:5px;
+}
+.contact-links{
+  display: flex; 
+  justify-content: space-between 40px;
+  width:50%;
+  /* margin:; */
+  margin-top:10px;
+}
+.contact-links i{
+  color:white;
+  font-size:40px;
+  padding: 5px;
 }
