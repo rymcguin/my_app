@@ -268,13 +268,13 @@
 }
 .contact-links{
   display: flex; 
-  justify-content: space-between 40px;
+  justify-content: space-between 80px;
   width:50%;
   /* margin:; */
-  margin-top:10px;
+  margin-top:20px;
 }
 .contact-links i{
   color:white;
-  font-size:40px;
+  font-size:80px;
   padding: 5px;
 }

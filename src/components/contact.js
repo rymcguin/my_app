@@ -24,11 +24,11 @@ class Contact extends Component {
 						</li>
 						<div className='contact-links'>
 							{/* Linkedin */}
-							<a href="http://google.com" rel="noopener norefferer" target="_blank">
+							<a href="https://www.linkedin.com/in/ryan-mcguiness-733265191/" rel="noopener norefferer" target="_blank">
 								<i className="fa fa-linkedin-square" aria-hidden="true"/>
 							</a>
 							{/* Github */}
-							<a href="http://google.com" rel="noopener norefferer" target="_blank">
+							<a href="https://github.com/rymcguin" rel="noopener norefferer" target="_blank">
 								<i className="fa fa-github-square" aria-hidden="true"/>
 							</a>
 					
