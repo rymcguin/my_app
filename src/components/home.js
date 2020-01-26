@@ -14,7 +14,7 @@ class Home extends Component {
 						</div> 
 						<h1 className='home-name'>Ryan C. McGuiness</h1>
 						<hr/>
-						<p>Computer Sciencentist / Economist </p>
+						<p>Computer Scientist / Economist </p>
 					</div>
 					<div className='home-text'>
 						<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am currently a student at Lehigh University persuing 
