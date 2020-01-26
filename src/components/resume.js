@@ -38,13 +38,13 @@ class Resume extends Component {
 									<p>&nbsp;&nbsp;&nbsp;&nbsp;Golfshop Attendant</p>
 									<ul className='work-att'>
 										<li> Responsibilities included managing daily store operations, assisting club members 
-											with store selections and purchases, answering phones and attending to staff and member needs,
+											with store selections and purchases, attending to staff and member needs,
 											 and maintaining overall store appearance and cleanliness.
 										</li>
 										<li>
-											Maintained store inventory and supplies according to plan; duties included the completion 
-											of weekly inventory counts, contacting specific vendors, placing required orders, tracking 
-											shipments/deliveries, organizing inventory, and stocking shelves. 
+											Maintained store inventory and supplies. Duties included the completion 
+											of weekly inventory counts, contacting vendors, placing orders, tracking 
+											shipments/deliveries, and organizing inventory. 
 										</li>
 
 									</ul>
@@ -52,10 +52,10 @@ class Resume extends Component {
 								<li>Colts Neck Fire Department 
 									<p>&nbsp;&nbsp;&nbsp;&nbsp; Junior Volunteer Member</p>
 									<ul className='work-fire'>
-										<li>Assisted in monitoring and maintaining firefighting equipment including hoses, 
-											extinguishers and personal protective equipment.</li>
-										<li>Responded to emergency electronic alerts in a timely manner and helped prepare
-											 firetrucks and firemen to attend to the emergency.</li>
+										<li>Monitored and maintained firefighting equipment including hoses, 
+											extinguishers and protective equipment.</li>
+										<li>Responded to emergency electronic alerts and assisted in the preparation
+											of vehicles and equipment.</li>
 									</ul>
 
 								</li>
@@ -91,7 +91,9 @@ class Resume extends Component {
 											raise over $800 for cancer research.
 										</li>
 									</ul>
-									
+								</li>
+								<li>
+									<bold>Hobbies:</bold> Chess, Reading, Golf, Snowboarding, and Exercise 
 								</li>
 							</ul>
 						</div>

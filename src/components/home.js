@@ -14,15 +14,14 @@ class Home extends Component {
 						</div> 
 						<h1 className='home-name'>Ryan C. McGuiness</h1>
 						<hr/>
-						<p>Computer Scientist / Economist </p>
+						<p>Computer Science & Economics </p>
 					</div>
 					<div className='home-text'>
-						<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I am currently a student at Lehigh University persuing 
-							a major in both Economics and Computer Science. I am interested in finding
-							creative and efficient solutions to the problems the world 
-							gives us on a daily basis. I am eager to learn and I am constantly trying to improve myself
-							every day. 
-
+					{/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */}
+						<p> Hello! I am currently a student at Lehigh University pursuing 
+							a double major in Economics and Computer Science. I am interested in finding
+							creative and efficient solutions to meaningful and interesting problems. I am eager to learn 
+							and constantly trying to improve myself. 
 						</p>
 					</div>
 					</Cell>
