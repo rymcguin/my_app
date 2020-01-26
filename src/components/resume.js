@@ -92,7 +92,7 @@ class Resume extends Component {
 										</li>
 									</ul>
 								</li>
-								<li>
+								<li className='resume-hobbies'>
 									<bold>Hobbies:</bold> Chess, Reading, Golf, Snowboarding, and Exercise 
 								</li>
 							</ul>

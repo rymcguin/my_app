@@ -216,7 +216,10 @@
   margin-bottom:3px;
   padding-right: 40px;
 }
-
+.resume-hobbies {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
 /* Contact page */
 
 .contact-main {
