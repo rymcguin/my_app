@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 .header-tabs{
-  font-size: 40px;
+  font-size: 40px !important;
 }
 
 /* Home page */
