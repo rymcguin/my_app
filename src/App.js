@@ -9,7 +9,7 @@ function App() {
     <div className="App">
   
       <Layout>
-        <Header className='header-color' title="Ryan McGuiness" scroll>
+        <Header className='header-color' title="" scroll>
           <Navigation>
                 <Link to="/">Home</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}

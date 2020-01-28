@@ -10,6 +10,9 @@
   font-size:25px;
   font-weight: bold;
 }
+.mdl-navigation{
+  font-size:18px;
+}
 
 /* Home page */
 .home-grid{
