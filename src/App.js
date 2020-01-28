@@ -10,7 +10,7 @@ function App() {
   
       <Layout>
         <Header className='header-color' title=" " scroll>
-          <Navigation>
+          <Navigation className= 'header-tabs'>
                 <Link to="/">Home</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/resume">Resume</Link>
