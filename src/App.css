@@ -10,7 +10,13 @@
   font-size:25px;
   font-weight: bold;
 }
-.header-tabs Link{
+.header-tab1{
+  font-size: 40px !important;
+}
+.header-tab2{
+  font-size: 40px !important;
+}
+.header-tab3{
   font-size: 40px !important;
 }
 

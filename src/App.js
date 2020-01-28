@@ -11,10 +11,10 @@ function App() {
       <Layout>
         <Header className='header-color' title=" " scroll>
           <Navigation className= 'header-tabs'>
-                <Link to="/">Home</Link>
+                <Link to="/" className= 'header-tab1'>Home</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/resume" className= 'header-tab2'>Resume</Link>
+                <Link to="/contact" className= 'header-tab3'>Contact</Link>
           </Navigation>
         </Header>
         {/* <Drawer title="Nav">
