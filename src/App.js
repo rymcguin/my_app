@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{height: '300px', position: 'relative'}}>
   
-      <Layout>
-        <Header className='header-color' title=" " scroll>
+      <Layout fixedHeader>
+        <Header className='header-color'>
           <Navigation className= 'header-tabs'>
                 <Link to="/" className= 'header-tab1'>Home</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
@@ -17,14 +17,6 @@ function App() {
                 <Link to="/contact" className= 'header-tab3'>Contact</Link>
           </Navigation>
         </Header>
-        {/* <Drawer title="Nav">
-            <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer> */}
         <Content>
             <div className="page-content" />
             <Main />
