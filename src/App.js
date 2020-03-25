@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App" style={{height: '300px', position: 'relative'}}>
+    <div className="App">
   
       <Layout fixedHeader>
         <Header className='header-color'>
