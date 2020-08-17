@@ -58,11 +58,11 @@ const Projects = () => {
                     color="textSecondary"
                     component="p"
                   >
-                    A really good book costs $10-20 and can change your life in
-                    a meaningful way. We want to help people find the great,
-                    life-altering books in this world. We scour a variety of
-                    sources to generate the best possible book recommendation
-                    every week.
+                    An Amazon affiliated website that provides weekly book
+                    recommendations to make you a better person. Developed with
+                    React, GatsbyJS, and GraphQL. We scour a variety of sources
+                    to generate the best possible book recommendation every
+                    week.
                   </Typography>
                 </CardContent>
               </CardActionArea>
