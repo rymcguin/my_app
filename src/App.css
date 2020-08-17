@@ -1,12 +1,12 @@
 .mdl-layout__content{
   background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ E*/
+  background: -webkit-linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #9e9eb0, #fafafa); /* W3C, IE 10+/ E*/
 }
 .header-color{
   background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size:25px;
   font-weight: bold;
 }
@@ -17,6 +17,9 @@
   font-size: 20px !important;
 }
 .header-tab3{
+  font-size: 20px !important;
+}
+.header-tab4{
   font-size: 20px !important;
 }
 .particles{
@@ -88,9 +91,6 @@
 
 /* Resume Page */
 .resume-body {
-  background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 .resume-body h1{
@@ -101,6 +101,7 @@
   border-top: 3px solid white;
   width: 90%;
   margin: auto;
+  align-items: center;
   padding-right:5px;
 }
 .resume-edu{
@@ -277,9 +278,11 @@
 }
 .email1{
   color:white;
+  word-wrap: break-word;
 }
 .email2{
   color:white;
+  word-wrap: break-word;
 }
 .contact-list li{
   margin:5px;

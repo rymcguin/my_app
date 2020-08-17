@@ -36,7 +36,8 @@ function App() {
           <Navigation className= 'header-tabs'>
                 <Link to="/" className= 'header-tab1'>Home</Link>
                 <Link to="/resume" className= 'header-tab2'>Resume</Link>
-                <Link to="/contact" className= 'header-tab3'>Contact</Link>
+                <Link to="/projects" className= 'header-tab3'>Projects</Link>
+                <Link to="/contact" className= 'header-tab4'>Contact</Link>
           </Navigation>
         </Header>
         <Content>
