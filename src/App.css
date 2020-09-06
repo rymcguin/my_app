@@ -1,40 +1,82 @@
-.mdl-layout__content{
-  background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #9e9eb0, #fafafa); /* W3C, IE 10+/ E*/
+.mdl-layout__content {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #9e9eb0,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #9e9eb0,
+    #fafafa
+  ); /* W3C, IE 10+/ E*/
 }
-.header-color{
-  background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #9e9eb0, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-size:25px;
+
+.header-color {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b8d99,
+    #9e9eb0,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b8d99,
+    #9e9eb0,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 25px;
   font-weight: bold;
+  
 }
-.header-tab1{
+.header-tab1 {
   font-size: 20px !important;
 }
-.header-tab2{
+.header-tab2 {
   font-size: 20px !important;
 }
-.header-tab3{
+.header-tab3 {
   font-size: 20px !important;
 }
-.header-tab4{
+.header-tab4 {
   font-size: 20px !important;
 }
-.particles{
-  position:fixed;
-  left:0;
-  right:0;
-  top:0;
+@media only screen and (max-width: 600px) {
+  .header-tabs {
+    padding-left: 15px;
+  }
+  .header-tab1 {
+    font-size: 15px !important;
+  }
+  .header-tab2 {
+    font-size: 15px !important;
+  }
+  .header-tab3 {
+    font-size: 15px !important;
+  }
+  .header-tab4 {
+    font-size: 15px !important;
+  }
+  div.mdl-layout__header-row{
+    padding-left: 20px;
+  }
+}
+.particles {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   bottom: 0;
-  z-index:-1;
+  z-index: -1;
 }
 /* Home page */
-.home-grid{
+.home-grid {
   color: white;
 }
-.home-bio{
+.home-bio {
   text-align: center;
 }
 /* .home-img{
@@ -45,7 +87,7 @@
   padding-top:100px;
   padding-bottom: 1em;
 } */
-.home-img{
+.home-img {
   text-align: center;
   width: 200px;
   height: 200px;
@@ -56,19 +98,19 @@
 }
 
 .home-img img {
-  margin-top:-15px;
+  margin-top: -15px;
   width: 100%;
   height: auto;
 }
-.home-text p{
-  color:white;
+.home-text p {
+  color: white;
   font-size: 25px;
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
   width: 65%;
-  margin:auto;
+  margin: auto;
   margin-top: 20px;
-  margin-bottom:40px;
-  padding:30px;
+  margin-bottom: 40px;
+  padding: 30px;
   border-radius: 10px;
   line-height: 30px;
 }
@@ -80,158 +122,157 @@
 
 .home-grid hr {
   font: 5px solid white;
-  width:85%;
-  margin:auto;
+  width: 85%;
+  margin: auto;
 }
-.home-bio p{
-  font-size:30px;
+.home-bio p {
+  font-size: 30px;
   padding: 20px;
-  margin:0px;
+  margin: 0px;
 }
 
 /* Resume Page */
 .resume-body {
   color: white;
 }
-.resume-body h1{
+.resume-body h1 {
   text-align: center;
   margin: 0px;
 }
-.resume-body hr{
+.resume-body hr {
   border-top: 3px solid white;
   width: 90%;
   margin: auto;
   align-items: center;
-  padding-right:5px;
+  padding-right: 5px;
 }
-.resume-edu{
-  background-color: rgba(0,0,0,.5);
+.resume-edu {
+  background-color: rgba(0, 0, 0, 0.5);
   width: 85%;
-  padding:5px;
-  margin:auto;
+  padding: 5px;
+  margin: auto;
   margin-top: 15px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
   border-radius: 10px;
 }
-.resume-edu h2{
-  font-size:40px;
-  margin-left:25px;
+.resume-edu h2 {
+  font-size: 40px;
+  margin-left: 25px;
   margin-top: 10px;
   margin-bottom: 0px;
   color: white;
 }
-.resume-edu hr{
-  margin: 0px 20px;
-  width: 90%;
-  border-top: 3px dotted white
-}
-.resume-edu ul{
-  font-size: 25px;
-  list-style: none;
-  padding-bottom: 10px;
-  margin-bottom: 0px;
-}
-.resume-edu p{
-  margin-bottom: 0px;
-}
-.edu-att li{
-  list-style: square;
-  margin-top:3px;
-  font-size: 18px;
-  margin-bottom:3px;
-  
-}
-.highschool li{
-  font-size: 18px;
-  margin-top: 3px;
-  list-style: square; 
-}
-.resume-work{
-  background-color: rgba(0,0,0,.5);
-  width:85%;
-  margin:auto;
-  margin-top:15px;
-  margin-bottom:15px;
-  padding:5px;
-  border-radius: 10px;
-}
-.resume-work h2{
-  font-size:40px;
-  margin-left:25px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  color: white;
-}
-.resume-work hr{
+.resume-edu hr {
   margin: 0px 20px;
   width: 90%;
   border-top: 3px dotted white;
 }
-.resume-work ul{
+.resume-edu ul {
   font-size: 25px;
   list-style: none;
   padding-bottom: 10px;
   margin-bottom: 0px;
 }
-.resume-work p{
-  margin-bottom: 5px;
+.resume-edu p {
+  margin-bottom: 0px;
 }
-.work-att li{
+.edu-att li {
   list-style: square;
-  margin-top:3px;
-  font-size: 20px;
-  margin-bottom:3px;
-  padding-right: 40px;
+  margin-top: 3px;
+  font-size: 18px;
+  margin-bottom: 3px;
 }
-.work-fire li{
+.highschool li {
+  font-size: 18px;
+  margin-top: 3px;
   list-style: square;
-  margin-top:3px;
-  font-size: 20px;
-  margin-bottom:3px;
-  padding-right: 40px;
 }
-.resume-extra{
-  background-color: rgba(0,0,0,.5);
-  width:85%;
-  margin:auto;
-  margin-top:15px;
-  margin-bottom:15px;
+.resume-work {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 5px;
   border-radius: 10px;
 }
-.resume-extra h2{
-  font-size:40px;
-  margin-left:25px;
+.resume-work h2 {
+  font-size: 40px;
+  margin-left: 25px;
   margin-top: 10px;
   margin-bottom: 0px;
   color: white;
 }
-.resume-extra hr{
+.resume-work hr {
   margin: 0px 20px;
   width: 90%;
   border-top: 3px dotted white;
 }
-.resume-extra ul{
+.resume-work ul {
   font-size: 25px;
   list-style: none;
   padding-bottom: 10px;
   margin-bottom: 0px;
 }
-.resume-extra p{
+.resume-work p {
   margin-bottom: 5px;
 }
-.resume-lcc li{
+.work-att li {
   list-style: square;
-  margin-top:3px;
+  margin-top: 3px;
   font-size: 20px;
-  margin-bottom:3px;
+  margin-bottom: 3px;
   padding-right: 40px;
 }
-.resume-phil li{
+.work-fire li {
   list-style: square;
-  margin-top:3px;
+  margin-top: 3px;
   font-size: 20px;
-  margin-bottom:3px;
+  margin-bottom: 3px;
+  padding-right: 40px;
+}
+.resume-extra {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.resume-extra h2 {
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+.resume-extra hr {
+  margin: 0px 20px;
+  width: 90%;
+  border-top: 3px dotted white;
+}
+.resume-extra ul {
+  font-size: 25px;
+  list-style: none;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.resume-extra p {
+  margin-bottom: 5px;
+}
+.resume-lcc li {
+  list-style: square;
+  margin-top: 3px;
+  font-size: 20px;
+  margin-bottom: 3px;
+  padding-right: 40px;
+}
+.resume-phil li {
+  list-style: square;
+  margin-top: 3px;
+  font-size: 20px;
+  margin-bottom: 3px;
   padding-right: 40px;
 }
 .resume-hobbies {
@@ -241,74 +282,72 @@
 /* Contact page */
 
 .contact-main {
-  color:white;
+  color: white;
   margin: 40px;
 }
-.contact-main h1{
-  margin:0px;
-  
+.contact-main h1 {
+  margin: 0px;
 }
-.contact-main hr{
-  margin:0px;
-  border-top:3px solid white;
+.contact-main hr {
+  margin: 0px;
+  border-top: 3px solid white;
 }
-.contact-main ul{
-  font-size:25px;
+.contact-main ul {
+  font-size: 25px;
   list-style-type: none;
-  color:white;
-  margin:10px 2px;
+  color: white;
+  margin: 10px 2px;
 }
-.contact-phone{
-  margin:5px;
+.contact-phone {
+  margin: 5px;
 }
-.contact-email{
-  margin:5px;
+.contact-email {
+  margin: 5px;
 }
-.contact-email2{
+.contact-email2 {
   margin-top: 5px;
 }
-.contact-list{
-  background: rgba(0,0,0,.5);
+.contact-list {
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding-top:2em;
-  padding-bottom:2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   width: 80%;
-  margin:auto;
+  margin: auto;
   margin-top: 50px;
 }
-.email1{
-  color:white;
+.email1 {
+  color: white;
   word-wrap: break-word;
 }
-.email2{
-  color:white;
+.email2 {
+  color: white;
   word-wrap: break-word;
 }
-.contact-list li{
-  margin:5px;
+.contact-list li {
+  margin: 5px;
 }
-.contact-links{
-  display: flex; 
+.contact-links {
+  display: flex;
   justify-content: space-between 80px;
-  width:50%;
+  width: 50%;
   /* margin:; */
-  margin-top:20px;
+  margin-top: 20px;
 }
-.contact-links i{
-  color:white;
-  font-size:80px;
+.contact-links i {
+  color: white;
+  font-size: 80px;
   padding: 15px;
 }
-@media only screen and (max-width: 650px){
-  .contact-main ul{
-    font-size:20px;
-    padding: 0px 10px ;
+@media only screen and (max-width: 650px) {
+  .contact-main ul {
+    font-size: 20px;
+    padding: 0px 10px;
     margin: auto;
   }
-  .contact-links i{
-    color:white;
-    font-size:30px;
+  .contact-links i {
+    color: white;
+    font-size: 30px;
     padding: 5px;
   }
-
 }
