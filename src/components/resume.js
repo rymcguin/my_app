@@ -124,11 +124,11 @@ class Resume extends Component {
                   </ul>
                 </li>
                 <li>
-                  <bold>The Complete Web-Developer Course</bold>Udemy(2020)
+                  <bold>The Complete Web-Developer Course</bold> Udemy(2020)
                 </li>
                 <br />
                 <li>
-                  <bold>Ract Neative the Practical Guide</bold>Udemy(2020)
+                  <bold>Ract Neative the Practical Guide</bold> Udemy(2020)
                 </li>
 				<br />
               </ul>
