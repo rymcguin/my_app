@@ -8,9 +8,9 @@ import 'react-mdl/extra/material.js';
 import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
-<BrowserRouter>
+<HashRouter>
 	<App />
-</BrowserRouter>
+</HashRouter>
 	, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
