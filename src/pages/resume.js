@@ -18,7 +18,7 @@ class Resume extends Component {
                   <p><strong>Double Major:</strong> Computer Science & Economics</p>
                   <p><strong>Graduation:</strong> May 2021</p>
                   <ul className="edu-att">
-                    <li>GPA:3.3/4.0</li>
+                    <li><strong>GPA:</strong> 3.3/4.0</li>
                     <li>
                       <strong>Computer Science Coursework: </strong>Software Engineering,
                       Programming & Data Structures, Systems Software,
