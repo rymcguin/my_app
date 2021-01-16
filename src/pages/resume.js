@@ -15,17 +15,18 @@ class Resume extends Component {
               <ul>
                 <li>
                   Lehigh University
-                  <p>Double Major: Computer Science & Economics</p>
+                  <p><strong>Double Major:</strong> Computer Science & Economics</p>
+                  <p><strong>Graduation:</strong> May 2021</p>
                   <ul className="edu-att">
                     <li>GPA:3.3/4.0</li>
                     <li>
-                      <strong>CompSci: </strong>Software Engineering,
+                      <strong>Computer Science Coursework: </strong>Software Engineering,
                       Programming & Data Structures, Systems Software,
                       Programming languages, Algorithms, and Computer
                       Organization/Architecture.
                     </li>
                     <li>
-                      <strong>Economics: </strong>
+                      <strong>Economics Coursework: </strong>
                       Game Theory, Econometric Software, Statistical Methods,
                       Micro & Macro- Economic Analysis, Competitor & Market
                       Analysis, Money, Banking & Financial Markets.
@@ -33,14 +34,16 @@ class Resume extends Component {
                   </ul>
                 </li>
                 <li>
-                  Christian Brothers Academy
+                  Self Learning
                   <ul className="highschool">
                     <li>
-                      <bold>SAT(1340/1600)</bold>- Math: 730 &
-                      Reading/Writing:610{" "}
+                    Lambda School User Experience and Design Bootcamp
                     </li>
                     <li>
-                      <bold>GPA</bold>: 3.7/4.0
+                    The Complete Web Developer Bootcamp on Udemy (React, Node.js, Express.js, PostgreSQL)
+                    </li>
+                    <li>
+                    The React Native Bootcamp on Udemy
                     </li>
                   </ul>
                 </li>
@@ -51,22 +54,36 @@ class Resume extends Component {
               <hr />
               <ul>
                 <li>
-                  Hayek.ai
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;Frontend Developer</p>
+                  Lapis Health
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;Moblie App Devoloper Intern</p>
                   <ul className="work-att">
                     <li>
-                      Assisted in the implementation of website components and
-                      features. Leading the development of a React-Native
-                      application to expand to Android and iOS platforms.
+                    A mobile application available on both Android and iOS designed to assist users to change their daily routine to include more heart healthy habits.
                     </li>
                     <li>
-                      Evaluated UX and UI designs for technical feasibility.
-                      Worked with a group to debug and redesign formatting and
-                      logic inconsistencies
+                    Used the Flutter SDK and Dart programming language to improve the UI/UX design of the app. In extension, I also tested, fixed bugs, and maintained the application.
+                    </li>
+                    <li>
+                    Led the development of Flutter Flavors and connected them to google Firebases, to provide multiple environments to develop and test in. Also developed and managed a Dark Mode feature.
                     </li>
                   </ul>
                 </li>
                 <li>
+                  Hayek.ai
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;Software Engineer Intern</p>
+                  <ul className="work-att">
+                    <li>
+                    Online marketplace for investment research that makes professional-grade research accessible by giving analysts a platform to establish a track record and sell their research.
+                    </li>
+                    <li>
+                    Assisted in building a production-grade React application using Redux for state management, Stripe for payments, Slate.js for rich-text editing, and the Material-UI library for component design and layout.
+                    </li>
+                    <li>
+                    Helped build a well-tested, RESTful API using Python and Flask, with a PostgreSQL database.
+                    </li>
+                  </ul>
+                </li>
+                {/* <li>
                   Due Process Stables, Golf Course
                   <p>&nbsp;&nbsp;&nbsp;&nbsp;Golfshop Attendant</p>
                   <ul className="work-att">
@@ -98,43 +115,34 @@ class Resume extends Component {
                       the preparation of vehicles and equipment.
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="resume-extra">
-              <h2>Skils and Cerifications</h2>
+              <h2>Skills</h2>
               <hr />
               <ul>
                 <li>
-                  <bold>Proficient: </bold>
+                  <strong>Proficient: </strong>
                   <ul className="resume-lcc">
                     <li>
-                      Java, JavaScript, C/C++, HTML/CSS, React, Node.js, SQL,
-                      REST, Unix, Linux, Bash, and Git
+                    Python, Java, JavaScript, HTML/CSS, React, React-Native, Flutter, Dart, Node.js, SQL
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <bold>Comfortable</bold>
+                  <strong>Comfortable:</strong>
                   <ul className="resume-lcc">
                     <li>
-                      C#, Rust, Racket, PostgresSQL, React-Native, GatsbyJS,
-                      GraphQL, Express.js, Google Firebase
+                    C/C++, Rust, Racket, GatsbyJS, GraphQL, TypeScript
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <bold>The Complete Web-Developer Course</bold> Udemy(2020)
-                </li>
-                <br />
-                <li>
-                  <bold>Ract Neative the Practical Guide</bold> Udemy(2020)
                 </li>
 				<br />
               </ul>
             </div>
             <div className="resume-extra">
-              <h2>Extracurriculars, Interests, and Skills</h2>
+              <h2>Extracurriculars and Interests</h2>
               <hr />
               <ul>
                 <li>
@@ -142,9 +150,7 @@ class Resume extends Component {
                   <p>Executive Board Member</p>
                   <ul className="resume-lcc">
                     <li>
-                      Attended and help tutor at weekly meetings called "Coding
-                      Hours" where students taking computer science classes
-                      could come and recieve help on their homework.
+                    Hosted and helped tutor at weekly coding sessions. Assisted students with course selection, homework problems, test preparation, and personal projects.
                     </li>
                   </ul>
                 </li>
@@ -168,7 +174,7 @@ class Resume extends Component {
                   </ul>
                 </li>
                 <li className="resume-hobbies">
-                  <bold>Hobbies:</bold> Chess, Reading, Golf, Snowboarding, and
+                  <strong>Hobbies:</strong> Chess, Reading, Golf, Snowboarding, and
                   Exercise
                 </li>
               </ul>

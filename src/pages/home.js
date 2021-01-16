@@ -5,7 +5,7 @@ import { Grid, Cell} from 'react-mdl';
 class Home extends Component {
 	render(){
 		return(
-			<div style={{width:'100%', margin:'auto'}}>
+			<div style={{display:'flex',alignItems:'center', width:'100%', height:'100%', marginTop:'auto'}}>
 				<Grid className='home-grid'>
 					<Cell col={12}>
 					<div className='home-bio'>

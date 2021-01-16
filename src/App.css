@@ -4,14 +4,16 @@
     to right,
     #3b8d99,
     #9e9eb0,
-    #ffffff
+    #e1dede
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #3b8d99,
     #9e9eb0,
-    #fafafa
-  ); /* W3C, IE 10+/ E*/
+    #e1dede
+  );
+
+  /* W3C, IE 10+/ E*/
 }
 
 .header-color {
@@ -20,13 +22,13 @@
     to right,
     #3b8d99,
     #9e9eb0,
-    #ffffff
+    #e1dede
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #3b8d99,
     #9e9eb0,
-    #ffffff
+    #e1dede
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 25px;
   font-weight: bold;
@@ -89,8 +91,8 @@
 } */
 .home-img {
   text-align: center;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 50%;
   margin: auto;
@@ -115,7 +117,7 @@
   line-height: 30px;
 }
 .home-name {
-  font-size: 50px;
+  font-size: 60px;
   padding: 10px;
   margin: 0px;
 }
@@ -179,6 +181,7 @@
 .edu-att li {
   list-style: square;
   margin-top: 3px;
+  margin-right: 40px;
   font-size: 18px;
   margin-bottom: 3px;
 }
@@ -222,14 +225,14 @@
   margin-top: 3px;
   font-size: 20px;
   margin-bottom: 3px;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .work-fire li {
   list-style: square;
   margin-top: 3px;
   font-size: 20px;
   margin-bottom: 3px;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .resume-extra {
   background-color: rgba(0, 0, 0, 0.5);
@@ -266,14 +269,14 @@
   margin-top: 3px;
   font-size: 20px;
   margin-bottom: 3px;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .resume-phil li {
   list-style: square;
   margin-top: 3px;
   font-size: 20px;
   margin-bottom: 3px;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .resume-hobbies {
   font-size: 20px;

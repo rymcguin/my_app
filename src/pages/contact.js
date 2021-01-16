@@ -10,18 +10,17 @@ class Contact extends Component {
 				<div className='contact-list'>
 					<ul>
 						
-						<li className='contact-phone'>Phone: 732-675-8146</li>
-						<li className='contact-email'> Email:
-							<ul>
-								<li className='contact-email1'>
-									<a href = "mailto: ryanmcguiness123@gmail.com" className='email1'>ryanmcguiness123@gmail.com</a>
-								</li>
-								<li className='contact-email2'>
-									<a href = "mailto: rcm421@lehigh.edu" className='email2'>rcm421@lehigh.edu</a>
-								</li>
-								
-							</ul>
-						</li>
+						<p style={{fontSize:'25px'}}><strong>Phone:</strong> 732-675-8146</p>		
+						<p style={{fontSize:'25px'}}>
+						<strong>Personal Email:</strong>
+						<a href = "mailto: ryanmcguiness123@gmail.com" className='email1'style={{paddingLeft:'10px'}}>ryanmcguiness123@gmail.com</a>
+						</p>
+
+						<p style={{fontSize:'25px'}}>
+							<strong>School Email:</strong> 
+							<a href = "mailto: rcm421@lehigh.edu" className='email2' style={{paddingLeft:'10px'}}>rcm421@lehigh.edu</a>
+						</p>
+	
 						<div className='contact-links'>
 							{/* Linkedin */}
 							<a href="https://www.linkedin.com/in/ryan-mcguiness-733265191/" rel="noopener norefferer" >
