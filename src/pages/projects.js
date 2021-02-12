@@ -29,7 +29,7 @@ const Projects = () => {
             <ProjectsCard link="https://www.booksthatmakeyousmarter.com/" title="Books That Make You Smarter" image="./btmys.png" body="An Amazon affiliated website that provides weekly book
             recommendations to make you a better person. Developed with React, GatsbyJS, and GraphQL. We scour a variety of sources to generate the best possible book recommendation every week."/>
 
-            <ProjectsCard link="https://github.com/rymcguin/facebrain" image="./faceapi.jpg" title="Face Detection" body="A face recognition website developed using React, Node,PostgresSQL, Clarifai API, and CORS. This application allows you to enter any link off of the web and will detect if there is a face in the photo. It is connected to a database which allows you to keep a profile and tack the amount of photos searched" />
+            <ProjectsCard link="https://github.com/rymcguin/facebrain" image="./faceapi.jpg" title="Face Detection" body="A face recognition website developed using React, Node, PostgreSQL, Clarifai API, and CORS. This application allows you to enter any link off of the web and will detect if there is a face in the photo. It is connected to a database which allows you to keep a profile and tack the amount of photos searched" />
 
           </Cell>
         </Cell>
